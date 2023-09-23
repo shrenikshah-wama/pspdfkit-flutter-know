@@ -103,7 +103,7 @@
                  [PSPDFAnnotationGroupItem itemWithType:PSPDFAnnotationStringUnderline]
              ]],
              [PSPDFAnnotationGroup groupWithItems:@[
-                 [PSPDFAnnotationGroupItem itemWithType:PSPDFAnnotationStringNote]
+                 [PSPDFAnnotationGroupItem itemWithType:PSPDFAnnotationStringFreeText]
              ]]
          ]];
 
