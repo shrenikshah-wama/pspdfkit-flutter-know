@@ -101,7 +101,7 @@
              ]],
              [PSPDFAnnotationGroup groupWithItems:@[
                  [PSPDFAnnotationGroupItem itemWithType:PSPDFAnnotationStringUnderline]
-             ]],
+             ]]
          ]];
 
          _pdfViewController.annotationToolbarController.annotationToolbar.configurations = @[configuration];
