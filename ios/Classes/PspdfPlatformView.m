@@ -64,8 +64,6 @@
             _pdfViewController.appearanceModeManager.appearanceMode = [PspdfkitFlutterConverter appearanceMode:configurationDictionary];
             _pdfViewController.pageIndex = [PspdfkitFlutterConverter pageIndex:configurationDictionary];
             _pdfViewController.delegate = self;
-            _pdfViewController.annotationToolbar.toolbar.setDragEnabled = false;
-            _pdfViewController.annotationToolbarController.toolbar.toolbarPosition = PSPDFFlexibleToolbarPositionTop;
 
             if ((id)configurationDictionary != NSNull.null) {
                 NSString *key = @"leftBarButtonItems";
