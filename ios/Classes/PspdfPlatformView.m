@@ -67,7 +67,6 @@
             [_pdfViewController.annotationToolbarController.toolbar setDragEnabled:false];
             _pdfViewController.annotationToolbarController.toolbar.toolbarPosition = PSPDFFlexibleToolbarPositionTop;
 
-
             if ((id)configurationDictionary != NSNull.null) {
                 NSString *key = @"leftBarButtonItems";
                 if (configurationDictionary[key]) {
