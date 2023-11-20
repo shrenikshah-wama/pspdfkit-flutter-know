@@ -10,8 +10,8 @@ package com.pspdfkit.flutter.pspdfkit
          return listOf(
              MenuItem(com.pspdfkit.R.id.pspdf__annotation_creation_toolbar_item_highlight),
              MenuItem(com.pspdfkit.R.id.pspdf__annotation_creation_toolbar_item_underline),
-             MenuItem(com.pspdfkit.R.id.pspdf__annotation_creation_toolbar_item_picker),
-             MenuItem(com.pspdfkit.R.id.pspdf__annotation_creation_toolbar_item_note),
+//             MenuItem(com.pspdfkit.R.id.pspdf__annotation_creation_toolbar_item_picker),
+//             MenuItem(com.pspdfkit.R.id.pspdf__annotation_creation_toolbar_item_note),
          )
      }
  }
